@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="h-screen bg-gray-700">
+<body>
 
-<div id="app" class="flex justify-center items-center h-screen">
-    <example-component></example-component>
+<div id="app" class="h-screen bg-gray-700">
+    <main-component></main-component>
 </div>
 
 <script src="{{ asset('js/app.js') }}"></script>
