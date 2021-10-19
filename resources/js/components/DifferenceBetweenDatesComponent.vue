@@ -31,8 +31,8 @@
                 </button>
             </div>
 
-            <div class="mt-5 flex content-center w-full" v-if="numberOfDaysBeforeDate > 0">
-                <div class="w-3/5">
+            <div class="mt-5" v-if="numberOfDaysBeforeDate > 0">
+                <div class="w-3/5 mx-auto">
                     <div class="rounded bg-gray-200 text-center text-4xl p-5 shadow-inner">
                         {{ numberOfDaysBeforeDate }}
                         <span class="text-sm">days</span>
